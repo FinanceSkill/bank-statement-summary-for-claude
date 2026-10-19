@@ -59,7 +59,7 @@ orchestrator (main session)
 ## Install
 
 ```bash
-git clone https://github.com/<owner>/tranbank ~/.claude/skills/tranbank
+git clone https://github.com/sinuthotmail/tranbank ~/.claude/skills/tranbank
 ```
 
 ## Use
