@@ -1,9 +1,9 @@
 ---
-name: tranbank
-description: Tranbank — convert bank statements (PDF, scanned PDF, Excel, CSV; Thai or English; any bank) into one summary CSV with the fixed columns NO, Account Name, Product, Bank Name, Account type, Acc No., Opening Balance, Total Deposit, Total Withdrawal, Interest Income, Bonus, Withholding Tax, Currency, Closing Balance. Use this whenever the user says "tranbank", asks to แปล/แปลง statement เป็น CSV, สรุป statement ธนาคาร, wants opening/closing balance, deposits, withdrawals, interest (ดอกเบี้ย) or withholding tax (ภาษีหัก ณ ที่จ่าย) pulled out of bank statements, or hands over a folder of bank statement files to summarise per account — even if they don't name the skill.
+name: bank-statement-summary
+description: Bank statement summary (Tranbank) — convert bank statements (PDF, scanned PDF, Excel, CSV; Thai or English; any bank) into one summary CSV with the fixed columns NO, Account Name, Product, Bank Name, Account type, Acc No., Opening Balance, Total Deposit, Total Withdrawal, Interest Income, Bonus, Withholding Tax, Currency, Closing Balance. Use this whenever the user says "tranbank" or "bank statement summary", asks to แปล/แปลง statement เป็น CSV, สรุป statement ธนาคาร, wants opening/closing balance, deposits, withdrawals, interest (ดอกเบี้ย) or withholding tax (ภาษีหัก ณ ที่จ่าย) pulled out of bank statements, or hands over a folder of bank statement files to summarise per account — even if they don't name the skill.
 ---
 
-# Tranbank — Step 1: statement → classified CSV
+# Bank Statement Summary — Step 1: statement → classified CSV
 
 Turn one or many bank statements into a single CSV with **one row per account per statement period**, in this exact column order:
 
@@ -118,4 +118,4 @@ Tell the user briefly, in their language:
 - missing statements, and files the user must supply
 - the worker model for each group, with any escalation, from `models.txt`
 
-This is step 1 of the Tranbank process. Later steps build on this CSV, so keep the column names and order exactly as above.
+This is step 1 of a multi-step process called Tranbank, which is why the output files are named `tranbank_…`. Later steps build on this CSV, so keep the column names and order exactly as above.

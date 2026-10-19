@@ -1,0 +1,14 @@
+{
+  "name": "bank-statement-summary",
+  "version": "1.0.0",
+  "description": "Turn bank statements (PDF, scanned PDF, Excel, CSV; Thai or English; any bank) into a monthly 14-column summary CSV, one row per account and currency, with Sonnet workers and Opus review.",
+  "author": {
+    "name": "sinuthotmail",
+    "url": "https://github.com/sinuthotmail"
+  },
+  "homepage": "https://github.com/sinuthotmail/bank-statement-summary-for-claude",
+  "repository": "https://github.com/sinuthotmail/bank-statement-summary-for-claude",
+  "license": "MIT",
+  "keywords": ["bank-statement", "accounting", "reconciliation", "csv", "thai", "pdf"],
+  "skills": ["./skills/bank-statement-summary"]
+}

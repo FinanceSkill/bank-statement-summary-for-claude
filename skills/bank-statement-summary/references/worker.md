@@ -1,4 +1,4 @@
-# Tranbank worker brief
+# Worker brief
 
 You turn one group of bank statements into rows. An orchestrator handles agents and the final CSVs. Afterwards a reviewer checks your rows against the statements, and you may get its findings to answer.
 

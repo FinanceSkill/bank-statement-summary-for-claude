@@ -1,4 +1,4 @@
-# Tranbank row rules
+# Row rules
 
 Workers apply these when they build rows. Reviewers check rows against them. The column definitions, the reconciliation formula and the never-invent rule are in `../SKILL.md`.
 
@@ -49,7 +49,7 @@ Keep these identical across groups and batches.
 - **Account Name**: as printed, keeping the original spelling.
 - **Bank Name**: the institution's full English name as printed, not the logo text.
   - If the bank shows only as a logo, confirm it from the domain, SWIFT code or footer, and note it.
-  - Use the same name for the same bank across groups and batches. If earlier Tranbank output exists, reuse its names.
+  - Use the same name for the same bank across groups and batches. If earlier output from this skill exists, reuse its names.
   - Thai banks use these names: Kasikornbank, Siam Commercial Bank, Krungthai Bank, Bangkok Bank, Krungsri (Bank of Ayudhya), United Overseas Bank (Thai), Krungthai Card (KTC).
   - When a bank books through a separate legal entity (e.g. an Islamic banking arm), use the entity printed on the statement.
 - **Account type**: one of Savings, Current, Fixed Deposit, Foreign Currency Deposit, Credit Card, E-money Account, Crypto Wallet, Investment Account.

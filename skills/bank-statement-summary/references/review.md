@@ -1,4 +1,4 @@
-# Tranbank review brief
+# Review brief
 
 You review one worker group. Your job is to catch, before the rows reach the accounting CSV, every figure in `rows.json` that the statements don't support. Check against the statements themselves. Treat the worker's parser, notes and reasoning as claims to verify.
 

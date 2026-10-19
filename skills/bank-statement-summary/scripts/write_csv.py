@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write classified statement rows to the Tranbank CSV template and check that they reconcile.
+"""Write classified statement rows to the summary CSV template and check that they reconcile.
 
 Usage:
     python3 write_csv.py <rows.json> <output.csv>

@@ -1,0 +1,17 @@
+{
+  "name": "bank-statement-summary-for-claude",
+  "owner": {
+    "name": "sinuthotmail",
+    "url": "https://github.com/sinuthotmail"
+  },
+  "description": "Bank statement summary skill for Claude Code, as an installable plugin.",
+  "plugins": [
+    {
+      "name": "bank-statement-summary",
+      "source": "./",
+      "description": "Bank statements to a monthly 14-column summary CSV, reconciled and reviewed.",
+      "category": "productivity",
+      "keywords": ["bank-statement", "accounting", "csv"]
+    }
+  ]
+}

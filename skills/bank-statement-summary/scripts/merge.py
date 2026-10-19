@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Merge Tranbank worker groups into the final CSVs.
+"""Merge the worker groups into the final per-month CSVs.
 
 usage: merge.py <workdir> <output-folder> [--one NAME.csv]
 
