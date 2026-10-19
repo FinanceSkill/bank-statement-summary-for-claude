@@ -2,7 +2,7 @@
 
 A [Claude Code](https://claude.com/claude-code) skill (also packaged as a plugin) that turns bank statements into one summary CSV per month. It handles PDF, scanned PDF, Excel and CSV statements, in Thai or English, from any bank. The CSV has **one row per account, per currency, per month** and a fixed set of 14 columns, ready for accounting work.
 
-For the Codex (GPT) version, see [bank-statement-summary-for-gpt](https://github.com/sinuthotmail/bank-statement-summary-for-gpt).
+For the Codex (GPT) version, see [bank-statement-summary-for-gpt](https://github.com/FinanceSkill/bank-statement-summary-for-gpt).
 
 > **ภาษาไทย:** สกิลสำหรับ Claude Code ที่แปลงสเตตเมนต์ธนาคาร (PDF, PDF สแกน, Excel, CSV ภาษาไทยหรืออังกฤษ) เป็น CSV สรุปรายบัญชีรายเดือน 14 คอลัมน์
 > - ทุกแถวกระทบยอดได้ และห้ามแต่งตัวเลข: ถ้าสเตตเมนต์ไม่มีตัวเลขนั้น จะเว้นว่างและเขียนเหตุผลไว้
@@ -63,14 +63,14 @@ orchestrator (main session)
 **As a plugin.** Run these in Claude Code:
 
 ```
-/plugin marketplace add sinuthotmail/bank-statement-summary-for-claude
+/plugin marketplace add FinanceSkill/bank-statement-summary-for-claude
 /plugin install bank-statement-summary@bank-statement-summary-for-claude
 ```
 
 **As a personal skill.** Clone the repo, then link the skill into `~/.claude/skills/`:
 
 ```bash
-git clone https://github.com/sinuthotmail/bank-statement-summary-for-claude.git
+git clone https://github.com/FinanceSkill/bank-statement-summary-for-claude.git
 ln -s "$PWD/bank-statement-summary-for-claude/skills/bank-statement-summary" ~/.claude/skills/bank-statement-summary
 ```
 
