@@ -1,0 +1,17 @@
+# Statements and outputs hold account numbers and balances: never commit them.
+*.pdf
+*.PDF
+*.zip
+*.csv
+*.xlsx
+*.xlsm
+*.xls
+*.png
+*.jpg
+*.jpeg
+*.json
+work/
+
+__pycache__/
+*.pyc
+.DS_Store
